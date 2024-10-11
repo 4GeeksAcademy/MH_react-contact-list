@@ -5,6 +5,13 @@ import Swal from 'sweetalert2';
 
 export const AddContact = () => {
   const { store, actions } = useContext(Context);
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [address, setAddress] = useState('');
+
+
   return (
     <div>AddContact</div>
   );
